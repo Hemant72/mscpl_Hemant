@@ -1,16 +1,30 @@
-# fydaa_flutter_assignment
+# Steps
 
-A new Flutter project.
+Step 1: Fork the Repository and Local Installation
 
-## Getting Started
+* Begin by forking the project repository to your GitHub account.
+* Clone the forked repository to your local machine.
+* Open a terminal and navigate to the project directory.
+  
+Step 2: Initialize and Run the Project
 
-This project is a starting point for a Flutter application.
+Execute the following commands in the terminal within the project directory:
+* flutter clean
+* flutter pub get
+* flutter run
+  
+Step 3: Project Launch
 
-A few resources to get you started if this is your first Flutter project:
+Congratulations! The project is now up and running.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Project Overview:
+
+Functionality:
+Upon running the project, you will encounter a phone number screen prompting you to enter a 10-digit phone number. Upon input and submission, the application will transition to an OTP (One-Time Password) screen.
+
+OTP Verification:
+
+On the OTP screen, enter the default OTP "123456" for verification.
+If the entered OTP matches, the user is successfully verified.
+In case of an incorrect OTP, an "Invalid OTP" message will be displayed.
